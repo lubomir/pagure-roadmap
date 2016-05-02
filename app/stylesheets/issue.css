@@ -1,0 +1,22 @@
+.issue {
+    line-height: 28px;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.status {
+    display: inline-block;
+    margin-left: 1rem;
+    color: white;
+    background: green;
+    padding: 4px;
+    line-height: 100%;
+    font-size: 80%;
+    border-radius: 4px;
+}
+.hidden {
+    display: none;
+}
