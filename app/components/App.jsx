@@ -23,8 +23,8 @@ export default class App extends React.Component {
         this.props.issues.forEach(issue => {
             const tags = issue.tags.filter(t => VERSION_RE.exec(t));
             const ver = tags.length > 0 ? tags[0] : UNPLANED;
-            versions[ver] = versions[ver] || {'finished': false, 'issues': []};
-            versions[ver].finished = versions[ver].finished || issue.status !== 'Open';
+            versions[ver] = versions[ver] || {'finished': true, 'issues': []};
+            versions[ver].finished = versions[ver].finished && issue.status !== 'Open';
             versions[ver].issues.push(issue);
         });
         const x = Object.keys(versions).sort(versionCompare).map(ver =>
