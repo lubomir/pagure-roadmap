@@ -43,7 +43,7 @@ const data = {
       'depends': [],
       'id': 17,
       'private': false,
-      'status': 'Open',
+      'status': 'Fixed',
       'tags': [
         'v0.1',
         'roadmap'

@@ -1,3 +1,51 @@
 .finished {
     color: #999;
 }
+
+.indicator {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 6px;
+    margin-left: 1rem;
+    vertical-align: middle;
+    background: #ccc;
+    border-radius: 3px;
+}
+.ratio {
+    position: absolute;
+    display: inline-block;
+    height: 6px;
+    border-radius: 3px;
+    background: green;
+}
+.ratio-1 {
+    width: 20px;
+}
+.ratio-2 {
+    width: 40px;
+}
+.ratio-3 {
+    width: 60px;
+}
+.ratio-4 {
+    width: 80px;
+}
+.ratio-5 {
+    width: 100px;
+}
+.ratio-6 {
+    width: 120px;
+}
+.ratio-7 {
+    width: 140px;
+}
+.ratio-8 {
+    width: 160px;
+}
+.ratio-9 {
+    width: 180px;
+}
+.ratio-10 {
+    width: 200px;
+}
