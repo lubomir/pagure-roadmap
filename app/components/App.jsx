@@ -30,8 +30,6 @@ export default class App extends React.Component {
         const x = Object.keys(versions).sort(versionCompare).map(ver =>
             <Version key={ver} ver={ver} {...versions[ver]} />
         );
-        //console.log(versions);
-        //const issues = this.props.issues.map(issue => <Issue issue={issue} />);
         return <div>{x}</div>;
     }
 }
