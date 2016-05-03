@@ -10,7 +10,7 @@ export default class Version extends React.Component {
         const ratio = Math.floor(finished * 10 / total);
         const cls = this.props.finished ? 'finished' : '';
         return (
-            <div className={cls}>
+            <div className={`version ${cls}`}>
                 <h2>
                     {this.props.ver}
                     <div className="indicator"><div className={`ratio ratio-${ratio}`} /></div>

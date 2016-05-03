@@ -1,3 +1,25 @@
+.version {
+    padding: 20px 0 20px 40px;
+    margin-left: 20px;
+    position: relative;
+    border-left: 2px solid #999;
+}
+.version::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid #999;
+    border-radius: 50%;
+    top: 40px;
+    left: -13px;
+    background: #fff;
+}
+
+.version h2 {
+    margin-top: 0;
+}
+
 .finished {
     color: #999;
 }

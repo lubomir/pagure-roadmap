@@ -1,3 +1,4 @@
+import './stylesheets/app.css';
 import './stylesheets/version.css';
 import './stylesheets/issue.css';
 
