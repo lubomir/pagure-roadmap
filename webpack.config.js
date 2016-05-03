@@ -18,7 +18,8 @@ var common = {
     },
     plugins: [
         new HtmlwebpackPlugin({
-            title: 'Roadmap'
+            template: 'app/index.html',
+            inject: 'body'
         })
     ]
 };
